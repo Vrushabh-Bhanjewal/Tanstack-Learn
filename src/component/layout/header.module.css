@@ -1,0 +1,14 @@
+.header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+}
+.list{
+    display: flex;
+    gap:1.5rem;
+}
+.footer{
+    background-color: aliceblue;
+}

@@ -1,0 +1,52 @@
+.box{
+    width: 70%;
+    margin: 5rem auto;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.item{
+    padding: 2rem ;
+    background-color: rgb(213, 235, 255);
+    border-left: 1rem solid rgb(132, 132, 242);
+}
+.btn button{
+    background-color: aquamarine ;
+    margin-top: 2rem;
+    border: none;
+    &:hover{
+        scale: 1.05;
+        background-color: chartreuse;
+    }
+}
+.del{
+    margin-top: 2rem;
+}
+.page{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 2rem;
+    & button{
+        border: none;
+        background-color: bisque;
+        font-size: 1.5rem;
+        padding:1rem 2rem;
+    }
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    margin: 50px auto;
+}
+.user{
+    padding: 20px;
+    text-align: center;
+}
